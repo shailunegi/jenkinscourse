@@ -1,7 +1,7 @@
 job('SNEGINodeJSexample') {
     scm {
         git('git://github.com/shailunegi/DockerDemo.git') {  node -> // is hudson.plugins.git.GitSCM
-            node / gitConfigName('DSL User')
+            node / gitConfigName('SnegiDSL')
             node / gitConfigEmail('awssnegi23@gmail.com')
         }
     }
